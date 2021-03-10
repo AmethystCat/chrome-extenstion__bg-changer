@@ -1,0 +1,24 @@
+{
+  "name": "switcher_request",
+  "version": "1.0.0",
+  "description": "proxy web request according to the rules you specify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "proxy",
+    "request"
+  ],
+  "author": "hc",
+  "license": "ISC",
+  "devDependencies": {
+    "@talentui/webpack-config": "^5.0.0-beta.10",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}

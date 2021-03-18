@@ -1,7 +1,7 @@
 {
   "name": "bg-changer",
   "manifest_version": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "custom your website background",
   "permissions": ["storage", "notifications", "proxy", "activeTab", "scripting" ],
   "icons": {

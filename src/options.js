@@ -1,6 +1,6 @@
 let page = document.getElementById('buttonDiv');
 let selectedClassName = 'current';
-const presetButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1', '#faebd7', '#f0f8ff', '#008b8b', '#696969'];
+const presetButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1', '#faebd7', '#f0f8ff', '#008b8b', '#696969', '#bc8f8f', '#40e0d0'];
 
 // Reacts to button click by marking the selected button and svaing the selection
 
@@ -41,3 +41,5 @@ function constructOptions(buttonColors) {
 
 // Initialize the page by constructing the color options
 constructOptions(presetButtonColors);
+
+var btn = document.querySelector('#btn');

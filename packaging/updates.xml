@@ -1,0 +1,5 @@
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+    <app appid="ceaejedgkklcoahijhcajicanbppdgge">
+        <updatecheck codebase="https://talenteye.italent.link/static/crx/te.crx" version="4.5.4"/>
+    </app>
+</gupdate>

@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallSources]
+"1"="https://recruitv5.tms.beisen.com/*"
+"2"="https://stnew03.beisen.com/*"
+"3"="https://talenteye.italent.cn/*"
+"4"="https://italent.cn/*"
+"5"="https://cloud.italent.cn/*"
+"6"="https://talenteye.italent.link/*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionSettings\*\install_sources]
+"1"="https://recruitv5.tms.beisen.com/*"
+"2"="https://stnew03.beisen.com/*"
+"3"="https://talenteye.italent.cn/*"
+"4"="https://italent.cn/*"
+"5"="https://cloud.italent.cn/*"
+"6"="https://talenteye.italent.link/*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallAllowlist]
+"1"="iameapkpimeeenlmglodmdpbdponlhhd"
+"2"="ceaejedgkklcoahijhcajicanbppdgge"

@@ -19,6 +19,7 @@ const copySource = new CopyPlugin({
     { from: 'src/images', to: 'images' },
     { from: 'src/css', to: 'css' },
     { from: 'src/action', to: 'action' },
+    { from: 'src/content', to: 'content' },
     // 下面这种规则需要指定context才能成功, 如果写成src/options.*，没有指定context则会在build目录新建src目录
     { from: 'options.*', context: 'src'}, 
     'src/manifest.json',

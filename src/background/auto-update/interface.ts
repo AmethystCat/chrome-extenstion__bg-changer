@@ -7,6 +7,7 @@ export enum IMessageType {
 
 export enum ENotificationType {
   applyUpdate = "applyUpdate",
+  alreadyUpdate = "alreadyUpdate",
 }
 
 export interface IMessage {

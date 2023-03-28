@@ -6,7 +6,8 @@ export const proxyRef = { current: null };
 export function getRemoteVersion() {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve("x.x.x");
+      const version = chrome.runtime.getManifest().version;
+      resolve(version);
     }, 100);
   });
 }
@@ -22,6 +23,6 @@ export const composeMsg = (from: IMessage["from"]) => (message: {
 export const bgMsg = composeMsg("background");
 
 // 用来记录插件异常日志的，
-export function logger(message: any) {
-  console.log('%c--log-- ', 'color: green; font-size: 18px;', message);
+export function logger(message: any, type = 'log') {
+  console[type]('%c--log-- ', 'font-size: 18px;', message);
 }

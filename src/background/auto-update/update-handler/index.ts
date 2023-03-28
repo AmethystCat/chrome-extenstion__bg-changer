@@ -48,3 +48,25 @@ export default function handleUpdate({
       //打开代理失败
     });
 }
+
+export function handleCheckLocalVersion() {
+  const key = 'version';
+  const manifestData = chrome.runtime.getManifest();
+  const version = manifestData.version;
+  const versionCache = localStorage.getItem(key);
+
+  if (!versionCache) {
+    localStorage.setItem(key, version);
+    return;
+  }
+
+  if (version > versionCache) {
+    localStorage.setItem(key, version);
+    chrome.notifications.create(ENotificationType.alreadyUpdate, {
+      type: "basic",
+      title: "Talent Eye更新成功",
+      message: "您的插件已升级到最新版",
+      iconUrl: "images/icon_48.png",
+    });
+  }
+}
